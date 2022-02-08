@@ -1,0 +1,20 @@
+@import "app";
+@import "table";
+@import "graph";
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.app {
+    &-main {
+        &__table {
+            padding: 50px;
+        }
+
+        &__graph {
+            padding: 50px;
+        }
+    }
+}
